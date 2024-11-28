@@ -10,7 +10,7 @@ class Plugin(BasePlugin):
     def __init__(self, config_file='config.yaml'):
         super().__init__()
         # Load configuration options
-        self.allowed_device_ids = self.config.get('allowed_device_ids', [])
+        self.allowed_device_ids = self.config.get('allowed_device_ids', ["*"])
         self.gpx_directory = self.config.get('gpx_directory', './data/gpx_data')
 
 

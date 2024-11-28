@@ -18,7 +18,7 @@ community-plugins:
     tag: main
     gpx_directory: "./data/gpx_data"
     allowed_device_ids:
-      - "fd3e19c2"  # Example (randome ID)
+      - "fd3e19c2"  # Example (random ID)
       - "*" # To save all location messages that are received.
 ```
 
